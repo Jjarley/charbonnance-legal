@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Charbonnance privacy policy</title>
+  <title>Charbonnance privacy policy · Politique de confidentialité</title>
   <style>
     :root { color-scheme: light dark; --text: #0f172a; --muted: #475569; --bg: #ffffff; --link: #0f766e; }
     @media (prefers-color-scheme: dark) { :root { --text: #e2e8f0; --muted: #94a3b8; --bg: #0b1220; --link: #5eead4; } }
@@ -13,11 +13,16 @@
     h2 { font-size: 1.15rem; margin-top: 2rem; }
     .meta { color: var(--muted); font-size: 0.9rem; }
     a { color: var(--link); }
+    nav { display: flex; gap: 1rem; justify-content: flex-end; font-size: 0.95rem; }
+    nav a[aria-current] { color: var(--text); font-weight: 600; text-decoration: none; }
+    html[data-lang="en"] #fr, html[data-lang="fr"] #en { display: none; }
   </style>
 </head>
 <body>
+  <nav><a href="#en" data-lang="en">English</a><a href="#fr" data-lang="fr">Français</a></nav>
+  <article id="en" lang="en">
   <h1>Charbonnance privacy policy</h1>
-  <p class="meta">Last updated 18 October 2026 · version 2</p>
+  <p class="meta">Last updated 12 November 2026 · version 3</p>
   <h2>Who is responsible</h2>
   <p>Charbonnance is made by Charley Guillot, who is the data controller for the personal data described here. For any question or request about your data, write to support@charbonnance.com.</p>
   <h2>What we store</h2>
@@ -35,7 +40,7 @@
   <p>Free accounts show ads provided by Google AdMob: banners on the Today, Routines, Exercise Library and Progress screens, and at most one full-screen ad a day after you finish a workout. There are never ads while you log a workout, on a timer, or for Pro accounts.</p>
   <p>To show and measure ads, Google may use your device's advertising identifier, your IP address and information about the ad shown. Your routines, workouts and account details are never sent to Google or to advertisers.</p>
   <p>In the European Economic Area, the United Kingdom and where else the law requires it, the app asks for your consent before any ad is requested. On iPhone it also asks Apple's permission to track. If you refuse, you may still see ads, but they are not personalised.</p>
-  <p>You can review or withdraw your choice in Account → Ad privacy choices, in your phone's settings (on iPhone, Privacy &amp; Security → Tracking), or by resetting your advertising ID. Upgrading to Pro ends all advertising.</p>
+  <p>You can review or withdraw your choice in Profile → Settings → Ad privacy choices, in your phone's settings (on iPhone, Privacy &amp; Security → Tracking), or by resetting your advertising ID. Upgrading to Pro ends all advertising.</p>
   <h2>Who processes it</h2>
   <p>Your data is stored by Supabase, our database and authentication provider, on servers in Zurich, Switzerland, a country the European Commission recognises as giving adequate protection. Supabase acts only on our instructions under a data processing agreement; as a US company it relies on the EU standard contractual clauses for any access from outside Europe.</p>
   <p>RevenueCat, Inc. (United States) processes purchase information for the subscription, linked to your account identifier. Google Ireland Ltd. and Google LLC provide the advertising described above to free accounts. Both rely on the EU standard contractual clauses or equivalent safeguards for transfers outside Europe.</p>
@@ -43,11 +48,66 @@
   <h2>How long we keep it</h2>
   <p>For as long as you have an account. When you delete your account, everything listed above is deleted at once and cannot be recovered. Copies may persist in our provider's backups for a short period until those backups expire.</p>
   <h2>Your rights</h2>
-  <p>You can see and correct your account details in the app (Today → Account), export all your data as a file (Account → Export my data) and delete your account and all its data (Account → Delete account).</p>
+  <p>You can see and correct your account details in the app (Profile), export all your data as a file (Profile → Export my data) and delete your account and all its data (Profile → Delete account).</p>
   <p>You can also ask, by writing to support@charbonnance.com, for access to your data, its correction or deletion, a copy in a portable format, or to restrict or object to its processing. If you no longer have the app, you can ask for your account to be deleted the same way, from the address you signed up with. We answer within one month.</p>
   <p>If you think your data is mishandled, you can complain to the CNIL (cnil.fr), the French data protection authority, or to the authority of the country where you live.</p>
   <h2>Changes</h2>
   <p>If this policy changes, the app tells you and asks you to read and accept the new version.</p>
+  <p>This policy exists in English and in French. Both say the same thing.</p>
   <p class="meta">Questions or requests: <a href="mailto:support@charbonnance.com">support@charbonnance.com</a></p>
+  </article>
+  <article id="fr" lang="fr">
+  <h1>Politique de confidentialité de Charbonnance</h1>
+  <p class="meta">Mise à jour le 12 novembre 2026 · version 3</p>
+  <h2>Qui est responsable</h2>
+  <p>Charbonnance est réalisée par Charley Guillot, responsable du traitement des données personnelles décrites ici. Pour toute question ou demande concernant tes données, écris à support@charbonnance.com.</p>
+  <h2>Ce que nous conservons</h2>
+  <p>Ton compte : ton adresse e-mail, un nom affiché et ton mot de passe (conservé uniquement sous forme d’empreinte par notre prestataire d’authentification).</p>
+  <p>Ton entraînement : les routines que tu écris, les séances que tu enregistres (exercices, séries, répétitions, poids, temps, distances, notes, pauses et scores de chrono), les records personnels qui en sont déduits et les exercices que tu crées.</p>
+  <p>La date à laquelle tu as accepté cette politique, et sa version.</p>
+  <p>L’état de ton abonnement (Pro ou gratuit, le produit et sa date d’expiration). Les paiements sont gérés par l’App Store d’Apple ou Google Play ; nous ne voyons jamais tes données bancaires.</p>
+  <p>Nous ne collectons ni ta position, ni tes contacts, ni tes photos, ni tes données de santé, et nous ne demandons aucune information sur ton corps.</p>
+  <h2>Pourquoi, et sur quelle base</h2>
+  <p>Nous utilisons ces données uniquement pour fournir l’application : conserver ton compte, tes plans et ton historique, et afficher ta progression. La base légale est l’exécution du contrat que tu conclus en créant un compte (RGPD, article 6(1)(b)).</p>
+  <p>Pour gérer l’abonnement Pro, nous enregistrons, via RevenueCat, l’achat que tu as effectué, afin que l’application débloque les fonctions Pro. La base légale est ce même contrat.</p>
+  <p>Les comptes gratuits affichent de la publicité (voir ci-dessous). La base légale de la publicité personnalisée est ton consentement (RGPD, article 6(1)(a)), que tu peux retirer à tout moment.</p>
+  <p>Nous n’utilisons aucun outil d’analyse d’audience, et tes données ne sont jamais vendues ni partagées à des fins de marketing.</p>
+  <h2>Publicité (comptes gratuits)</h2>
+  <p>Les comptes gratuits affichent des publicités fournies par Google AdMob : des bannières sur les écrans Aujourd’hui, Routines, Exercices et Progrès, et au plus une publicité plein écran par jour après la fin d’une séance. Il n’y a jamais de publicité pendant l’enregistrement d’une séance, sur un chrono, ni pour les comptes Pro.</p>
+  <p>Pour afficher et mesurer les publicités, Google peut utiliser l’identifiant publicitaire de ton appareil, ton adresse IP et des informations sur la publicité affichée. Tes routines, tes séances et les informations de ton compte ne sont jamais envoyées à Google ni aux annonceurs.</p>
+  <p>Dans l’Espace économique européen, au Royaume-Uni et partout où la loi l’exige, l’application demande ton consentement avant toute demande de publicité. Sur iPhone, elle demande aussi l’autorisation de suivi d’Apple. Si tu refuses, tu peux encore voir des publicités, mais elles ne sont pas personnalisées.</p>
+  <p>Tu peux revoir ou retirer ton choix dans Profil → Réglages → Choix de confidentialité des pubs, dans les réglages de ton téléphone (sur iPhone, Confidentialité et sécurité → Suivi), ou en réinitialisant ton identifiant publicitaire. Passer à Pro met fin à toute publicité.</p>
+  <h2>Qui traite ces données</h2>
+  <p>Tes données sont hébergées par Supabase, notre prestataire de base de données et d’authentification, sur des serveurs situés à Zurich, en Suisse, pays reconnu par la Commission européenne comme offrant une protection adéquate. Supabase n’agit que sur nos instructions, dans le cadre d’un accord de traitement des données ; en tant que société américaine, elle s’appuie sur les clauses contractuelles types de l’UE pour tout accès depuis l’extérieur de l’Europe.</p>
+  <p>RevenueCat, Inc. (États-Unis) traite les informations d’achat de l’abonnement, liées à l’identifiant de ton compte. Google Ireland Ltd. et Google LLC fournissent aux comptes gratuits la publicité décrite ci-dessus. Tous deux s’appuient sur les clauses contractuelles types de l’UE ou des garanties équivalentes pour les transferts hors d’Europe.</p>
+  <p>Les rappels, comme le chrono de repos et l’alerte « séance toujours en cours », sont programmés sur ton appareil et ne le quittent jamais.</p>
+  <h2>Combien de temps nous les conservons</h2>
+  <p>Aussi longtemps que tu as un compte. Quand tu supprimes ton compte, tout ce qui est listé ci-dessus est supprimé immédiatement et ne peut pas être récupéré. Des copies peuvent subsister peu de temps dans les sauvegardes de notre prestataire, jusqu’à leur expiration.</p>
+  <h2>Tes droits</h2>
+  <p>Tu peux consulter et corriger les informations de ton compte dans l’application (Profil), exporter toutes tes données dans un fichier (Profil → Exporter mes données) et supprimer ton compte et toutes ses données (Profil → Supprimer le compte).</p>
+  <p>Tu peux aussi demander, en écrivant à support@charbonnance.com, l’accès à tes données, leur rectification ou leur suppression, une copie dans un format portable, ou la limitation de leur traitement, ou t’y opposer. Si tu n’as plus l’application, tu peux demander la suppression de ton compte de la même façon, depuis l’adresse avec laquelle tu t’es inscrit. Nous répondons dans un délai d’un mois.</p>
+  <p>Si tu estimes que tes données sont mal gérées, tu peux déposer une réclamation auprès de la CNIL (cnil.fr), l’autorité française de protection des données, ou auprès de l’autorité du pays où tu vis.</p>
+  <h2>Modifications</h2>
+  <p>Si cette politique change, l’application te prévient et te demande de lire et d’accepter la nouvelle version.</p>
+  <p>Cette politique existe en anglais et en français. Les deux versions disent la même chose.</p>
+  <p class="meta">Questions ou demandes : <a href="mailto:support@charbonnance.com">support@charbonnance.com</a></p>
+  </article>
+  <script>
+    (function () {
+      function pick() {
+        var hash = location.hash.slice(1);
+        var lang = hash === 'fr' || hash === 'en' ? hash
+          : ((navigator.language || 'en').slice(0, 2) === 'fr' ? 'fr' : 'en');
+        document.documentElement.setAttribute('data-lang', lang);
+        document.documentElement.lang = lang;
+        document.querySelectorAll('nav a').forEach(function (a) {
+          if (a.getAttribute('data-lang') === lang) a.setAttribute('aria-current', 'true');
+          else a.removeAttribute('aria-current');
+        });
+      }
+      window.addEventListener('hashchange', pick);
+      pick();
+    })();
+  </script>
 </body>
 </html>
